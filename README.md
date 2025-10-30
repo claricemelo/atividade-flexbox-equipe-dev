@@ -13,11 +13,14 @@ O objetivo é criar um **portfólio simples em HTML e CSS** para treinar conceit
 
 1. **Acesse o repositório-base da turma:**     
 2. **Faça um *fork*** deste repositório para a sua conta GitHub.  
-   - Clique no botão **Fork** (no canto superior direito).  
+   - Clique no botão **Fork** (traduzido - Garfo) (no canto superior direito).  
    - O repositório será copiado para o seu perfil.
 3. **Ative o GitHub Pages** (opcional, se quiser visualizar como site):  
    - Vá em *Settings > Pages*  
    - Escolha a branch `main` e clique em **Save**.
+   - Traduzido-----
+   - Vá em *Configurações > Páginas*  
+   - Escolha a Filial `principal` e clique em **Salvar**.
 4. **Edite os arquivos:**
    - Substitua as fotos (`img`) por imagens da sua equipe.
    - Altere os nomes, funções e textos das seções.
