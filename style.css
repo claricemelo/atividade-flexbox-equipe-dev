@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root {
-  --cor-primaria: #111;
+  --cor-primaria: #111111;
   --cor-secundaria: #f6f6f6;
-  --cor-terciaria: #fd2231; /* <- ATIVIDADE ---- trocar A COR */
+  --cor-terciaria: #074e00; /* <- ATIVIDADE ---- trocar A COR */
   --cor-hover: #272727;
 }
 
@@ -65,7 +65,7 @@ body {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 30px;
-  color: var(--cor-secundaria);
+  color: var(--cor-terciaria);
 }
 
 /* ---------- CONTEÚDO PRINCIPAL ---------- */
@@ -81,7 +81,7 @@ body {
 
 .card {
   background-color: var(--cor-hover);
-  border: 2px solid #888; /* <- ATIVIDADE ---- trocar por variável */
+  border: 2px solid var(--cor-terciaria); /* <- ATIVIDADE ---- trocar por variável */
   border-radius: 10px;
   width: 250px;
   text-align: center;
@@ -101,7 +101,7 @@ body {
   object-fit: cover;
 }
 
-button {
+.Contatos{
   background-color: var(--cor-terciaria);
   border: none;
   color: white;
@@ -110,11 +110,12 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
 }
 
-button:hover {
+.Contatos:hover {
   background-color: var(--cor-hover);
-  border: 2px solid var(--cor-terciaria);
+  border: 1px solid var(--cor-terciaria);
 }
 
 /* ---------- PÁGINA SOBRE ---------- */
